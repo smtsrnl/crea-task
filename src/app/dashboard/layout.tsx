@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { useEffect } from "react";
 
 
 export default function RootLayout({
@@ -11,6 +12,7 @@ export default function RootLayout({
 }) {
 
   const router = useRouter();
+
 
   function logout(e: React.FormEvent) {
     e.preventDefault();
@@ -25,6 +27,15 @@ export default function RootLayout({
 
     router.push("/dashboard/product");
   }
+
+  useEffect(() => {
+    let apiToken = sessionStorage.getItem("api_token")
+      || localStorage.getItem("api_token");
+
+    if (!apiToken) {
+      return router.push("login");
+    }
+  }, []);
 
   return (
     <div className="container">

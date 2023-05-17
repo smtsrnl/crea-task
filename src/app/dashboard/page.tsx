@@ -3,6 +3,7 @@ import Link from 'next/link'
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import Product from './ProductModel';
+import styles from '../page.module.css';
 
 export default function Dashboard() {
   const [load, setLoad] = useState(false);
@@ -12,8 +13,6 @@ export default function Dashboard() {
       setLoad(true);
       setData(res.data);
     })
-
-    console.log('products')
   }, []);
   return (
     <table className="table">
@@ -38,6 +37,7 @@ export default function Dashboard() {
             return (
               <tr>
                 <th scope="row">{data.id}</th>
+                <th scope="row"><img src={data.image} className={styles["table-image"]} /></th>
                 <td>{data.name}</td>
                 <td>{data.price}</td>
                 <td>{data.star}</td>

@@ -8,5 +8,5 @@ const router = jsonServer.router('db.json')
 server.use(cors());
 server.use(router)
 server.listen(8000, () => {
-    console.log('JSON Server is running')
+    console.log('JSON Server is running on 8000')
 })

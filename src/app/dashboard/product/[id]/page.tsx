@@ -65,6 +65,14 @@ export default function Detail({ params }: DetailParams) {
                     isLoaded && (
                         <div>
                             <div className="row">
+                                <div className="col-md-12">
+                                    <div className="row mb-5">
+                                        <div className="col-md-2 mx-auto">
+                                            <img src={image} className="img-fluid" />
+                                        </div>
+                                    </div>
+                                    <hr />
+                                </div>
                                 <div className="col-md-6 mb-3">
                                     <h6>Name</h6>
                                     <input type="text" className="form-control" value={name} onChange={(e) => setName(e.target.value)} name="name" />

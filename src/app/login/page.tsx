@@ -3,16 +3,10 @@
 import React, { useEffect, useState } from 'react';
 import { redirect, useRouter } from 'next/navigation';
 import styles from './page.module.css'
-function randomString(len: number) {
-  let charSet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-  var randomString = '';
-  for (var i = 0; i < len; i++) {
-    var randomPoz = Math.floor(Math.random() * charSet.length);
-    randomString += charSet.substring(randomPoz, randomPoz + 1);
-  }
-  return randomString;
-}
+import { randomString } from '../functions';
+
 export default function Login() {
+
   const defaultUsername = "user";
   const defaultPassword = "user123";
   const [username, setUsername] = useState<string>(defaultUsername);
@@ -35,6 +29,12 @@ export default function Login() {
       setError(true);
     }
   }
+
+  useEffect(() => {
+    if (localStorage.getItem("api_token")) {
+      router.push("/dashboard");
+    }
+  }, [])
 
   return (
     <main className={`${styles["form-signin"]} w-100 m-auto text-center flex justify-align-center`}>
