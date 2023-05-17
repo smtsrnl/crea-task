@@ -1,8 +1,12 @@
-export default interface Product {
+import ProductCommentModel from "./ProductCommentModel";
+
+export default interface ProductModel {
     id: number,
     name: string,
+    description: string,
     price: number,
-    star: number,
+    currency: string,
     date: string,
     image: string,
+    comments?: Array<ProductCommentModel>,
 }

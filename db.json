@@ -2,99 +2,267 @@
   "products": [
     {
       "name": "Product 1",
-      "star": 5,
+      "description": "Product  asdasd222de",
+      "currency": "$",
       "price": 55,
       "image": "https://hips.hearstapps.com/hmg-prod/images/bridal-jewellery-1674833090.jpg",
       "id": 1,
-      "date": "10.15.2022"
+      "date": "10.15.2022",
+      "comments": [
+        {
+          "id": 1,
+          "name": "Bekir",
+          "rate": 4,
+          "date": "10.15.2022"
+        },
+        {
+          "id": 2,
+          "name": "Bekir",
+          "rate": 5,
+          "date": "10.15.2022"
+        }
+      ]
     },
     {
       "id": 2,
       "name": "Product 2",
+      "description": "Product 1",
+      "currency": "$",
       "price": 10,
-      "star": 1,
       "people": 20,
       "image": "https://cdn.shopify.com/s/files/1/0308/5105/files/Nialaya_HP_Sub-Banner-3_1024x1024.jpg?v=1680814307",
-      "date": "10.15.2022"
+      "date": "10.15.2022",
+      "comments": [
+        {
+          "id": 5,
+          "name": "Bekir",
+          "rate": 4,
+          "date": "10.15.2022"
+        },
+        {
+          "id": 6,
+          "name": "Bekir",
+          "rate": 5,
+          "date": "10.15.2022"
+        },
+        {
+          "id": 7,
+          "name": "Bekir",
+          "rate": 5,
+          "date": "10.15.2022"
+        },
+        {
+          "id": 8,
+          "name": "Bekir",
+          "rate": 4,
+          "date": "10.15.2022"
+        }
+      ]
     },
     {
       "id": 3,
       "name": "Product 3",
       "price": 10,
-      "star": 4,
       "people": 20,
+      "description": "Product 1",
+      "currency": "$",
       "image": "https://cache.net-a-porter.com/content/images/story-body-content-10thmay2022-0-1652082941364.jpeg/w1900_q65.jpeg",
-      "date": "10.25.2022"
+      "date": "10.25.2022",
+      "comments": [
+        {
+          "id": 9,
+          "name": "Bekir",
+          "rate": 4,
+          "date": "10.15.2022"
+        },
+        {
+          "id": 10,
+          "name": "Bekir",
+          "rate": 5,
+          "date": "10.15.2022"
+        },
+        {
+          "id": 11,
+          "name": "Bekir",
+          "rate": 5,
+          "date": "10.15.2022"
+        },
+        {
+          "id": 12,
+          "name": "Bekir",
+          "rate": 4,
+          "date": "10.15.2022"
+        }
+      ]
     },
     {
       "id": 4,
       "name": "Product 4",
       "price": 10,
-      "star": 3,
       "people": 20,
+      "description": "Product 1",
+      "currency": "$",
       "image": "https://cache.net-a-porter.com/content/images/story-body-content-10thmay2022-0-1652082941364.jpeg/w1900_q65.jpeg",
-      "date": "10.01.2022"
+      "date": "10.01.2022",
+      "comments": [
+        {
+          "id": 13,
+          "name": "Bekir",
+          "rate": 4,
+          "date": "10.15.2022"
+        },
+        {
+          "id": 14,
+          "name": "Bekir",
+          "rate": 5,
+          "date": "10.15.2022"
+        },
+        {
+          "id": 15,
+          "name": "Bekir",
+          "rate": 5,
+          "date": "10.15.2022"
+        },
+        {
+          "id": 16,
+          "name": "Bekir",
+          "rate": 4,
+          "date": "10.15.2022"
+        }
+      ]
     },
     {
       "id": 5,
       "name": "Product 5",
       "price": 22,
-      "star": 3,
       "people": 20,
+      "description": "Product 1",
+      "currency": "$",
       "image": "https://cache.net-a-porter.com/content/images/story-body-content-10thmay2022-0-1652082941364.jpeg/w1900_q65.jpeg",
-      "date": "10.02.2022"
+      "date": "10.02.2022",
+      "comments": [
+        {
+          "id": 17,
+          "name": "Bekir",
+          "rate": 4,
+          "date": "10.15.2022"
+        },
+        {
+          "id": 18,
+          "name": "Bekir",
+          "rate": 5,
+          "date": "10.15.2022"
+        },
+        {
+          "id": 19,
+          "name": "Bekir",
+          "rate": 5,
+          "date": "10.15.2022"
+        },
+        {
+          "id": 20,
+          "name": "Bekir",
+          "rate": 4,
+          "date": "10.15.2022"
+        }
+      ]
     },
     {
       "id": 6,
       "name": "Product 6",
       "price": 15,
-      "star": 3,
       "people": 20,
+      "description": "Product 1",
+      "currency": "$",
       "image": "https://cache.net-a-porter.com/content/images/story-body-content-10thmay2022-0-1652082941364.jpeg/w1900_q65.jpeg",
-      "date": "10.15.2022"
+      "date": "10.15.2022",
+      "comments": []
     },
     {
       "id": 7,
       "name": "Product 7",
       "price": 10,
-      "star": 3,
       "people": 20,
+      "description": "Product 1",
+      "currency": "$",
       "image": "https://cache.net-a-porter.com/content/images/story-body-content-10thmay2022-0-1652082941364.jpeg/w1900_q65.jpeg",
-      "date": "10.10.2022"
+      "date": "10.10.2022",
+      "comments": []
     },
     {
       "id": 8,
       "name": "Product 8",
       "price": 22,
-      "star": 3,
       "people": 20,
+      "description": "Product 1",
+      "currency": "$",
       "image": "https://cache.net-a-porter.com/content/images/story-body-content-10thmay2022-0-1652082941364.jpeg/w1900_q65.jpeg",
-      "date": "10.30.2022"
+      "date": "10.30.2022",
+      "comments": []
     },
     {
       "id": 9,
       "name": "Product 9",
       "price": 15,
-      "star": 3,
       "people": 20,
+      "description": "Product 1",
+      "currency": "$",
       "image": "https://cache.net-a-porter.com/content/images/story-body-content-10thmay2022-0-1652082941364.jpeg/w1900_q65.jpeg",
-      "date": "10.20.2022"
+      "date": "10.20.2022",
+      "comments": [
+        {
+          "id": 22,
+          "name": "Bekir",
+          "rate": 1,
+          "date": "10.15.2022"
+        }
+      ]
     },
     {
       "name": "denemö",
-      "star": 123,
       "price": 32,
       "image": "https://hips.hearstapps.com/hmg-prod/images/bridal-jewellery-1674833090.jpg",
       "date": "55.Mo.2023",
-      "id": 10
+      "description": "Product 1",
+      "currency": "$",
+      "id": 10,
+      "comments": [
+        {
+          "id": 23,
+          "name": "Bekir",
+          "rate": 1,
+          "date": "10.15.2022"
+        },
+        {
+          "id": 24,
+          "name": "Bekir",
+          "rate": 2,
+          "date": "10.15.2022"
+        },
+        {
+          "id": 25,
+          "name": "Bekir",
+          "rate": 5,
+          "date": "10.15.2022"
+        },
+        {
+          "id": 26,
+          "name": "Bekir",
+          "rate": 4,
+          "date": "10.15.2022"
+        }
+      ]
     },
     {
       "name": "denemö",
       "star": 123,
       "price": 32,
+      "description": "Product 1",
+      "currency": "$",
       "image": "https://hips.hearstapps.com/hmg-prod/images/bridal-jewellery-1674833090.jpg",
       "date": "56.Mo.2023",
-      "id": 11
+      "id": 11,
+      "comments": []
     }
   ]
 }

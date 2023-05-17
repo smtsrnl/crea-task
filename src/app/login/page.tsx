@@ -31,7 +31,7 @@ export default function Login() {
   }
 
   useEffect(() => {
-    if (localStorage.getItem("api_token")) {
+    if (localStorage.getItem("api_token") || sessionStorage.getItem("api_token")) {
       router.push("/dashboard");
     }
   }, [])

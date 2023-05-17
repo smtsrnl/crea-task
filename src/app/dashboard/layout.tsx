@@ -1,5 +1,4 @@
 'use client';
-
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
@@ -13,11 +12,16 @@ export default function RootLayout({
 
   const router = useRouter();
 
-
   function logout(e: React.FormEvent) {
     e.preventDefault();
-    sessionStorage.getItem("api_token") || sessionStorage.removeItem("api_token");
-    localStorage.getItem("api_token") || localStorage.removeItem("api_token");
+
+    if (sessionStorage.getItem("api_token")) {
+      sessionStorage.removeItem("api_token")
+    }
+
+    if (localStorage.getItem("api_token")) {
+      localStorage.removeItem("api_token")
+    }
 
     router.push("/login");
   }
@@ -33,7 +37,7 @@ export default function RootLayout({
       || localStorage.getItem("api_token");
 
     if (!apiToken) {
-      return router.push("login");
+      router.push("/login");
     }
   }, []);
 
