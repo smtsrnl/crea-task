@@ -1,9 +1,9 @@
 'use client';
-import axios from "axios";
 import { useEffect, useState } from "react";
 import Product from "../../ProductModel";
 import ProductDetail from "./components/detail";
 import ProductComments from "./components/comments";
+import axios from "@/app/axios";
 
 interface DetailParams {
     params: {

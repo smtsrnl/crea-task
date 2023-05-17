@@ -1,8 +1,8 @@
 'use client';
+import axios from "@/app/axios";
 import ProductCommentModel from "@/app/dashboard/ProductCommentModel";
 import ProductModel from "@/app/dashboard/ProductModel";
 import { calculatedRate, rate as rateFunc } from "@/app/functions";
-import axios from "axios";
 import moment from "moment";
 import { FormEvent, useState } from "react";
 

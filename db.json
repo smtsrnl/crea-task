@@ -20,6 +20,12 @@
           "name": "Bekir",
           "rate": 5,
           "date": "10.15.2022"
+        },
+        {
+          "name": "mygbit",
+          "rate": 4,
+          "date": "52.We.2023",
+          "id": 3
         }
       ]
     },
@@ -263,6 +269,33 @@
       "date": "56.Mo.2023",
       "id": 11,
       "comments": []
+    },
+    {
+      "name": "Merchant_permissions",
+      "currency": "TL",
+      "description": "asdasdas",
+      "price": 22,
+      "image": "https://hips.hearstapps.com/hmg-prod/images/bridal-jewellery-1674833090.jpg",
+      "date": "03.We.2023",
+      "id": 12,
+      "comments": []
+    },
+    {
+      "name": "Merchant_permissions",
+      "currency": "TL",
+      "description": "asdasdas",
+      "price": 22,
+      "image": "https://hips.hearstapps.com/hmg-prod/images/bridal-jewellery-1674833090.jpg",
+      "date": "03.We.2023",
+      "id": 13,
+      "comments": [
+        {
+          "name": "5",
+          "rate": 5,
+          "date": "05.We.2023",
+          "id": 2
+        }
+      ]
     }
   ]
 }

@@ -1,6 +1,6 @@
 'use client';
+import axios from "@/app/axios";
 import ProductModel from "@/app/dashboard/ProductModel";
-import axios from "axios";
 import { FormEvent, useEffect, useState } from "react";
 
 interface DetailParams {

@@ -1,10 +1,10 @@
 'use client';
 import Link from 'next/link'
-import axios from 'axios';
 import { useEffect, useState } from 'react';
 import Product from './ProductModel';
 import styles from '../page.module.css';
 import { rate } from '../functions';
+import axios from '@/app/axios';
 
 export default function Dashboard() {
   const [load, setLoad] = useState(false);
